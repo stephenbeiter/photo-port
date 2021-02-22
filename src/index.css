@@ -84,7 +84,6 @@ p {
 a {
   color: var(--tertiary);
   text-decoration: none;
-  font-weight: bold;
 }
 
 a:hover {
@@ -93,6 +92,11 @@ a:hover {
 
 header {
   background: var(--dark);
+}
+
+header h2 {
+  display: inline-block;
+  font-family: 'Poiret One', cursive;
 }
 
 header a {
@@ -152,10 +156,22 @@ li {
 
 nav a:hover {
   text-decoration: none;
+  color:rgba(0, 0, 0, .65);
+}
+
+nav {
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
 }
 
 nav  li {
   cursor: pointer;
+}
+
+nav li:hover {
+  background: var(--light);
+  color:rgba(0, 0, 0, .65);
 }
 
 textarea {
@@ -282,8 +298,6 @@ button {
 
 a {
 	border-radius: 5px;
-	color: var(--primary);
-	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
 	margin-right: -2px;
